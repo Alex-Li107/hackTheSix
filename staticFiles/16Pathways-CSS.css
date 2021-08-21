@@ -1,0 +1,59 @@
+body{
+    background: rgb(105, 150, 235);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background: blueviolet;
+    height:150px;
+    width:2500px;
+    z-index: -1 ;
+    margin-top:-17px;
+    margin-left:-30px;
+}
+
+h1{
+    color:black; 
+    position:absolute;
+    left: 295px;
+    right: 100px;
+}
+
+h3{
+    color:black;
+    position:absolute;
+    left: 297px;
+    bottom:600px;
+}
+
+h1 h3{
+    background:blue;
+}
+
+h4{
+    position:absolute;
+    left:460px;
+    bottom: 170px;
+}
+
+center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2{
+    position:absolute;
+    text-align: center;
+    left: 620px;
+    bottom:15px;
+    background: gray;
+    padding: 15px 5px;
+}
+
+h5{
+    position:absolute;
+    left:300px;
+    bottom:120px;
+}
