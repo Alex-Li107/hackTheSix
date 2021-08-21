@@ -74,10 +74,10 @@ footer{
 
 .otherRectangle{ 
     width: 290px;
-    height: 586px;
+    height: 100vh;
     background: orange;
     position:absolute;
-    left:1230px;
+    margin-right:-30px;
     top: 119px;
   }
 
@@ -86,7 +86,7 @@ footer{
     height:120px;
     width:100vw;
     position:absolute;
-    bottom:-110px;
+    bottom:- 50px;
     margin-left:-30px;
 }
 
