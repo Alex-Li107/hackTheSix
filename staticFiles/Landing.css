@@ -41,6 +41,8 @@ body{
     top: -82px;
     font-weight: normal;
     font-size: 2vh;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
   
   p{
