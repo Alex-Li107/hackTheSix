@@ -36,9 +36,10 @@ body{
 
   h4{
     position: relative;
-    left: 7%;
+    left: 8%;
     font-family: "Arial"; 
-    top: -30px;
+    top: -82px;
+    font-weight: normal;
     font-size: 2vh;
   }
   
