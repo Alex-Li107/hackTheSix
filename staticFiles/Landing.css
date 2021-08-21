@@ -28,10 +28,10 @@ body{
   }
   h3{
     position: relative;
-    text-align: left;
+    left: 15%;
     font-family: "Arial"; 
     top: -60px;
-    font-size: 7vh;
+    font-size: 3vh;
   }
   
   p{
