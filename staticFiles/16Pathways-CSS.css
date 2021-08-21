@@ -30,12 +30,6 @@ h1 h3{
     background:blue;
 }
 
-h4{
-    position:absolute;
-    left:400px;
-    bottom: 120px;
-}
-
 center{
     display: block;
     margin-left: auto;
