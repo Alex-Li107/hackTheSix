@@ -5,8 +5,8 @@ body{
 
 header{
     background: blueviolet;
-    height:150px;
-    width:2500px;
+    height:120px;
+    width:1540px;
     z-index: -1 ;
     margin-top:-17px;
     margin-left:-30px;
@@ -32,8 +32,8 @@ h1 h3{
 
 h4{
     position:absolute;
-    left:460px;
-    bottom: 170px;
+    left:400px;
+    bottom: 120px;
 }
 
 center{
@@ -55,5 +55,38 @@ h2{
 h5{
     position:absolute;
     left:300px;
-    bottom:120px;
+    bottom:85px;
 }
+
+footer{
+    position:absolute;
+    left:270px;
+    bottom:10px;
+}
+
+.rectangle {
+    width: 290px;
+    height: 586px;
+    background: orange;
+    margin-left: -30px;
+  }
+
+
+.otherRectangle{ 
+    width: 290px;
+    height: 586px;
+    background: orange;
+    position:absolute;
+    left:1230px;
+    top: 119px;
+  }
+
+.bottomRectangle{
+    background: blueviolet;
+    height:120px;
+    width:1540px;
+    position:absolute;
+    bottom:-110px;
+    margin-left:-30px;
+}
+
