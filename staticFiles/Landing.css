@@ -42,7 +42,13 @@ body{
     background-color:rgb(61,4,118);
     color: white;
   }
-  
+
+  div {
+    height: 200px;
+    width: 50%;
+    background-color: white;
+  }
+
   .fancyButton{
     background-color:	rgb(61,4,118);
     border: none;
