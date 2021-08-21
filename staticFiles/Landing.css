@@ -26,6 +26,13 @@ body{
     top: -60px;
     font-size: 7vh;
   }
+  h3{
+    position: relative;
+    text-align: left;
+    font-family: "Arial"; 
+    top: -60px;
+    font-size: 7vh;
+  }
   
   p{
     text-align: center;
