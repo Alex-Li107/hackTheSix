@@ -7,7 +7,14 @@ def index(request):
 
 #When this will handle loading the code for the results page and ig processing the results of the survey 
 def results(request):
-    return render(request, 'results.html')
+    Sum = 0
+    if request.method == 'POST':
+        values = request.POST.getlist('val')
+        for i in range (len(values)):
+            Sum = Sum + values[i]
+    else:
+        values = 0
+    return render(request, 'results.html', {'num': values})
 
 def aboutus(request):
     return render(request, 'aboutUs.html')
