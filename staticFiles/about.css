@@ -10,6 +10,12 @@ header{
 	background-color: 	rgb(61,4,118);
 	grid-area: header;
 }
+h1{
+    color: rgb(61,4,118);
+}
+p{
+    color: rgb(181,104,255);
+}
 header img{
 	height: 3em;
 }
@@ -25,7 +31,7 @@ nav span{
 	font-size: 1.5em;
 }
 header h1{
-	color: rgb(61,4,118);
+	color: rgb(181,104,255);
 	padding-left: 5%;
 }
 #title{
@@ -60,7 +66,6 @@ header h1{
 	grid-template-areas: "pic name" "pic description";
 	grid-template-columns: auto 1fr;
 	grid-template-rows: auto 1fr;
-	grid-column-gap: 2vh;
 }
 .profile img{
 	height: 100%;
@@ -81,7 +86,7 @@ header h1{
 	border: 1px solid white;
 	text-align: center;
 	line-height: 30vh;
-	color: white;
+	color: rgb(61,4,118);
 	font-size: 5vh;
 	margin: 0;
 }
