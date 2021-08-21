@@ -7,7 +7,7 @@ def index(request):
 
 #When this will handle loading the code for the results page and ig processing the results of the survey 
 def results(request):
-    return HttpResponse('hello mens')
+    return render(request, 'results.html')
 
 def aboutus(request):
-    return HttpResponse('Yo this is us')
+    return render(request, 'aboutUs.html')
