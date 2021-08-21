@@ -10,7 +10,8 @@
   <body>
 		<img src="https://cdn.discordapp.com/attachments/855134240203079711/878735247913668688/16PathwaysLogo.png">
         <button class = fancyButton> <a href="https://infinite-earth-37349.herokuapp.com/aboutus/"> About Us </a> </button> 
-        <form method = "POST" action = "">
+        <form method = "POST" action = "results/">
+            {% csrf_token %}
 		    <button class = fancyButton type="submit"> Search </button> 
         </form>
 
