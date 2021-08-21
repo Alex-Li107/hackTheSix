@@ -1,0 +1,1 @@
+web: gunicorn hackThe6ixProject.wsgi
