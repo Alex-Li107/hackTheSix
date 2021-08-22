@@ -34,12 +34,7 @@ body{
     font-family: "Arial"; 
     top: -30px;
     font-size: 3vh;
-    background: -webkit-linear-gradient(left,rgb(181,104,255) ,rgb(61,4,118));
-    background: -o-linear-gradient(right, rgb(181,104,255) ,rgb(61,4,118));
-    background: -moz-linear-gradient(right,rgb(181,104,255) ,rgb(61,4,118));
-    background: linear-gradient(to right, rgb(181,104,255) ,rgb(61,4,118)); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(61,4,118);
   }
  
   p{
