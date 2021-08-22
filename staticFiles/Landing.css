@@ -33,18 +33,7 @@ body{
     top: -30px;
     font-size: 3vh;
   }
-
-  h4{
-    position: relative;
-    left: 7%;
-    font-family: "Arial"; 
-    top: -53px;
-    font-weight: normal;
-    font-size: 2vh;
-    margin-block-start: 0;
-    margin-block-end: 0;
-  }
-  
+ 
   p{
     text-align: center;
     font-family: "Arial"; 
@@ -173,4 +162,15 @@ body{
     display: block;  
       text-decoration: none;
       color: white;
+  }
+
+  .form-check-label{
+    position: relative;
+    left: 7%;
+    font-family: "Arial"; 
+    top: -53px;
+    font-weight: normal;
+    font-size: 2vh;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
