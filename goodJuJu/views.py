@@ -10,8 +10,8 @@ def results(request):
     Sum = 0
     if request.method == 'POST':
         values = request.POST.getlist('val')
-        #for i in range (len(values)):
-            #Sum = Sum + values[i]
+        for i in range (len(values)):
+            Sum = Sum + values[i]
     else:
         values = {}
     return render(request, 'results.html', {'num': values})
