@@ -11,20 +11,22 @@ def results(request):
     if request.method == 'POST':
         values = request.POST.getlist('val')
         #values is a list of strings, change the values into an int and sum them up so aaren can find out ur personailty
-        #for i in range (len(values)):
-            #Sum = Sum + values[i]
+        for i in range (len(values)):
+            Sum = Sum + int(values[i])
         #you dont need this if u summing it all up. Delete when ur done
-        values_dict = {
-            'values': values
-        }
     
     #if statements to determine personality
+    if Sum >= 76:
+        values_dict =  {
+            "perty": "infj",
+            "job1": "test"
+        }
+    elif Sum < 76 and Sum >= 71:
+        values_dict =  {
+            "perty": "enfj",
+            "job1": "testt"
+        }
 
-
-    #create a dictionary with personailty and possible jobs
-    #values_dict = {
-        #.....
-    #}
     
     return render(request, 'results.html', values_dict)
 
