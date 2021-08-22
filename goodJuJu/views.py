@@ -162,9 +162,6 @@ def results(request):
             "job4": "Stockbroker"
         }
     
-    
-
-    
     return render(request, 'results.html', values_dict)
 
 def aboutus(request):
