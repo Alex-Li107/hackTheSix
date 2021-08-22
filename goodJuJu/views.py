@@ -38,9 +38,9 @@ def results(request):
     elif Sum >= 66 and Sum <= 70:
         values_dict =  {
             "perty": "ISFJ",
-            "cluster": "Health Sciences ",
+            "cluster": "Health Sciences",
             "job1": "Family Physician",
-            "job2": "Kinesiologist ",
+            "job2": "Kinesiologist",
             "job3": "Nurse",
             "job4": "Community Relations Officer"
         }
@@ -58,7 +58,7 @@ def results(request):
             "perty": "INFP",
             "cluster": "Linguistics & Writing Studies",
             "job1": "Journalist",
-            "job2": "Freelance Writer/Poet ",
+            "job2": "Freelance Writer/Poet",
             "job3": "Translator",
             "job4": "Lexicographer"
         }
@@ -68,7 +68,7 @@ def results(request):
             "cluster": "Political Science",
             "job1": "Lobbyist",
             "job2": "Sales Manager",
-            "job3": "Government Official ",
+            "job3": "Government Official",
             "job4": "Budget Analyst"
         }
     elif Sum >= 45 and Sum <= 49:
@@ -77,16 +77,16 @@ def results(request):
             "cluster": "Education",
             "job1": "Elementary/High School Teacher",
             "job2": "Daycare Administrator",
-            "job3": "School Guidance Counsellor ",
-            "job4": "Health Educator "
+            "job3": "School Guidance Counsellor",
+            "job4": "Health Educator"
         }
     elif Sum >= 40 and Sum <= 44:
         values_dict =  {
             "perty": "ENFP",
             "cluster": "Media & Communication Studies",
             "job1": "Digital Marketer",
-            "job2": "Graphic Designer ",
-            "job3": "Photographer ",
+            "job2": "Graphic Designer",
+            "job3": "Photographer",
             "job4": "Social Media Manager"
         }
     elif Sum >= 35 and Sum <= 39:
@@ -102,19 +102,19 @@ def results(request):
         values_dict =  {
             "perty": "INTP",
             "cluster": "Mathematics",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Academic Researcher",
+            "job2": "Pure Mathematician",
+            "job3": "Cryptographer",
+            "job4": "Actuary"
         }
     elif Sum >= 25 and Sum <= 29:
         values_dict =  {
             "perty": "ISFP",
             "cluster": "Creative Art & Design",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Professional Musician",
+            "job2": "Landscape Designer",
+            "job3": "Animator",
+            "job4": "Stylist"
         }
     elif Sum >= 20 and Sum <= 24:
         values_dict =  {
@@ -129,19 +129,19 @@ def results(request):
         values_dict =  {
             "perty": "ENTP",
             "cluster": "Physical Science",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Astrophysicist",
+            "job2": "Patent Examiner",
+            "job3": "Microbiologist",
+            "job4": "Product Developer"
         }
     elif Sum >= 10 and Sum <= 14:
         values_dict =  {
             "perty": "ESFP",
             "cluster": "Performing Arts",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Actor/Actress",
+            "job2": "Dancer",
+            "job3": "Musical Theatre Performer",
+            "job4": "Choreographer"
         }
     elif Sum >= 5 and Sum <= 9:
         values_dict =  {
@@ -155,7 +155,7 @@ def results(request):
     elif Sum >= 0 and Sum <= 4:
         values_dict =  {
             "perty": "ESTP",
-            "cluster": "Entrepreneurship & Business Studies ",
+            "cluster": "Entrepreneurship & Business Studies",
             "job1": "",
             "job2": "",
             "job3": "",

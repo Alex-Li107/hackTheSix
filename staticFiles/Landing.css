@@ -25,7 +25,8 @@ body{
     text-align: center;
     font-family: "Arial"; 
     top: -60px;
-    font-size: 3vh;
+    font-size: 1.5vh;
+    font-style: italic;
   }
   h3{
     position: relative;
