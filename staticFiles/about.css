@@ -23,9 +23,11 @@ footer{
 
 h1{
     color: rgb(61,4,118);
+	font-family: Arial;
 }
 h3{
     color: rgb(181,104,255);
+	font-family: Arial;
 }
 header img{
 	height: 3em;
@@ -100,10 +102,15 @@ header h1{
 	color: rgb(61,4,118);
 	font-size: 5vh;
 	margin: 0;
+	font-family: Arial;
 }
 a{
 	text-decoration: none;
-	color: rgb(61,4,118);
+	color: rgb(181,104,255);
+	font-family: Arial;
+}
+p{
+	font-family: Arial;
 }
 @media screen and (max-width: 600px){
 	header{
