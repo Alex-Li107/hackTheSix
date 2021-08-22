@@ -1,3 +1,11 @@
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: 	rgb(61,4,118);
+	grid-area: header;
+}
+
 body{
     font-size: 25px;
   }
@@ -17,7 +25,7 @@ body{
     background: linear-gradient(to right, rgb(181,104,255) ,rgb(61,4,118)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 7vw;
+    font-size: 50px;
   }
   
   h2{
@@ -25,7 +33,7 @@ body{
     text-align: center;
     font-family: "Arial"; 
     top: -60px;
-    font-size: 5vw;
+    font-size: 33px;
   }
   
   p{
@@ -38,7 +46,7 @@ body{
     text-align: center;
     position: relative;
     top: -25px;
-    font-size: 2vw;
+    font-size: 25px;
   }
 
   h4{
@@ -46,7 +54,7 @@ body{
     position: relative;
     top: -15px;
     margin-top:0px;
-    font-size: vw;
+    font-size: 16px;
   }
 
   span{
