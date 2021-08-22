@@ -8,7 +8,7 @@ body{
   }
   h1{
     position: relative;
-    top: -70px;
+    top: -60px;
     text-align: center;
     font-family: "Arial"; 
     background: -webkit-linear-gradient(left,rgb(181,104,255) ,rgb(61,4,118));
@@ -23,7 +23,7 @@ body{
     position: relative;
     text-align: center;
     font-family: "Arial"; 
-    top: -55px;
+    top: -40px;
     font-size: 7vh;
   }
   
