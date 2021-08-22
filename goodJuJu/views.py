@@ -19,12 +19,12 @@ def results(request):
     #if statements to determine personality
     if Sum >= 76:
         values_dict =  {
-            "perty": "infj",
+            "perty": "INFJ",
             "job1": "test"
         }
     elif Sum < 76 and Sum >= 71:
         values_dict =  {
-            "perty": "enfj",
+            "perty": "ENFJ",
             "job1": "testt"
         }
 
