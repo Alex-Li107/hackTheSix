@@ -13,13 +13,16 @@ header img{
 h5{
 	color: rgb(181,104,255);
 	padding-left: 5%;
-  white-space: nowrap;
-  font-size: 25px;
+  font-size: 32px;
 }
 
 #title{
 	display: flex;
 	align-items: center;
+}
+
+#title h5{
+  white-space: nowrap;
 }
 
 body{
