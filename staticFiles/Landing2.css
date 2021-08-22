@@ -10,7 +10,7 @@ header img{
 	height: 3em;
 }
 
-h5{
+header h1{
 	color: rgb(181,104,255);
 	padding-left: 5%;
   font-size: 32px;
@@ -21,7 +21,7 @@ h5{
 	align-items: center;
 }
 
-#title h5{
+#title h1{
   white-space: nowrap;
 }
 
