@@ -152,7 +152,7 @@ def results(request):
             "job3": "Border Patrol Agent",
             "job4": "Judge"
         }
-    elif Sum >= 0 and Sum <= 4:
+    elif Sum > 0 and Sum <= 4:
         values_dict =  {
             "perty": "ESTP",
             "cluster": "Entrepreneurship & Business Studies",
