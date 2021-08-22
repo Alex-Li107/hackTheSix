@@ -56,47 +56,47 @@ def results(request):
     elif Sum >= 55 and Sum <= 60:
         values_dict =  {
             "perty": "INFP",
-            "cluster": "English & Writing Studies",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "cluster": "Linguistics & Writing Studies",
+            "job1": "Journalist",
+            "job2": "Freelance Writer/Poet ",
+            "job3": "Translator",
+            "job4": "Lexicographer"
         }
     elif Sum >= 50 and Sum <= 54:
         values_dict =  {
             "perty": "ENTJ",
             "cluster": "Political Science",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Lobbyist",
+            "job2": "Sales Manager",
+            "job3": "Government Official ",
+            "job4": "Budget Analyst"
         }
     elif Sum >= 45 and Sum <= 49:
         values_dict =  {
             "perty": "ESFJ",
             "cluster": "Education",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Elementary/High School Teacher",
+            "job2": "Daycare Administrator",
+            "job3": "School Guidance Counsellor ",
+            "job4": "Health Educator "
         }
     elif Sum >= 40 and Sum <= 44:
         values_dict =  {
             "perty": "ENFP",
             "cluster": "Media & Communication Studies",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Digital Marketer",
+            "job2": "Graphic Designer ",
+            "job3": "Photographer ",
+            "job4": "Social Media Manager"
         }
     elif Sum >= 35 and Sum <= 39:
         values_dict =  {
             "perty": "ISTJ",
             "cluster": "Engineering",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Civil Engineer",
+            "job2": "Engineering Consultant",
+            "job3": "Product Tester",
+            "job4": "Logistician"
         }
     elif Sum >= 30 and Sum <= 34:
         values_dict =  {
