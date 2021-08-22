@@ -13,7 +13,7 @@ def results(request):
         #for i in range (len(values)):
             #Sum = Sum + values[i]
     else:
-        values = 0
+        values = {}
     return render(request, 'results.html', {'num': values})
 
 def aboutus(request):
