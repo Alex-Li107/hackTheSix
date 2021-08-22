@@ -87,7 +87,7 @@ def results(request):
             "job1": "Digital Marketer",
             "job2": "Graphic Designer",
             "job3": "Photographer",
-            "job4": "Social Media Manager"
+            "job4": "Intrapreneur"
         }
     elif Sum >= 35 and Sum <= 39:
         values_dict =  {
