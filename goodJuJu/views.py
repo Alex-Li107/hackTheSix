@@ -8,6 +8,7 @@ def index(request):
 #When this will handle loading the code for the results page and ig processing the results of the survey 
 def results(request):
     values = ""
+    Sum = 0
     if request.method == 'POST':
         values = request.POST.getlist('val')
         #values is a list of strings, change the values into an int and sum them up so aaren can find out ur personailty
