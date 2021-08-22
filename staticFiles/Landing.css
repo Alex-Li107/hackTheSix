@@ -50,12 +50,6 @@ body{
     color: white;
   }
 
-  div {
-    height: 100px;
-    width: 50%;
-    background-color: white;
-  }
-
   .fancyButton{
     background-color:	rgb(61,4,118);
     border: none;
@@ -173,4 +167,11 @@ body{
     font-size: 2vh;
     margin-block-start: 0;
     margin-block-end: 0;
+  }
+
+  .form-check-input{
+    font-family: "Arial";
+    position: relative;
+    left: 10%;
+    top: -55px;
   }
