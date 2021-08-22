@@ -38,6 +38,8 @@ body{
     background: -o-linear-gradient(right, rgb(181,104,255) ,rgb(61,4,118));
     background: -moz-linear-gradient(right,rgb(181,104,255) ,rgb(61,4,118));
     background: linear-gradient(to right, rgb(181,104,255) ,rgb(61,4,118)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
  
   p{

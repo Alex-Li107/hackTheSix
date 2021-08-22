@@ -120,10 +120,10 @@ def results(request):
         values_dict =  {
             "perty": "ISTP",
             "cluster": "Athletics",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Professional Basketball Player",
+            "job2": "Sports Coach",
+            "job3": "Physical Education Instructor",
+            "job4": "Olympian"
         }
     elif Sum >= 15 and Sum <= 19:
         values_dict =  {
@@ -147,19 +147,19 @@ def results(request):
         values_dict =  {
             "perty": "ESTJ",
             "cluster": "Law Enforcement",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Police Officer",
+            "job2": "Private Investigator",
+            "job3": "Border Patrol Agent",
+            "job4": "Judge"
         }
     elif Sum >= 0 and Sum <= 4:
         values_dict =  {
             "perty": "ESTP",
             "cluster": "Entrepreneurship & Business Studies",
-            "job1": "",
-            "job2": "",
-            "job3": "",
-            "job4": ""
+            "job1": "Enterpriser",
+            "job2": "Business Development Officer",
+            "job3": "Data Analyst",
+            "job4": "Stockbroker"
         }
     
     
