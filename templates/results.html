@@ -8,19 +8,14 @@
     <link href="{% static 'Landing2.css' %}" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <img src="https://media.discordapp.net/attachments/855134240203079711/878749889985667162/16Pathways_Logo_Revised.png?width=1808&height=904">
-		    <h1> 16 Pathways </h1>    
-            <h2> Find the career that works for you </h2>    
-            <h5> <stong> Results </stong> </h5>
-            <h6> Congratulations on completing the test! You personality type is {{perty}}.</h6> 
-            <!-- this is where u want to print out the personality-->
-            <h6> Based on your personality type, it is recommended that you pursue a career in {{job1}}.</h6>
-            <!-- this is where u want to print out the possible jobs--> 
-            <!--{% for item in values %}
-                {{ item }} 
-            {% endfor %}-->
-            <h6> Thank you for taking our test! </h6>
-            <h6> Click <a href='https://infinite-earth-37349.herokuapp.com/'>here</a> to restart. </h6>
+    <img src="https://media.discordapp.net/attachments/855134240203079711/878749889985667162/16Pathways_Logo_Revised.png?width=1808&height=904">  
+        <h1> <stong> Results </stong> </h1>
+        <h2> Congratulations on completing the test! Your personality type is {{perty}}.</h2> 
+        <!-- this is where u want to print out the personality-->
+        <h4> Based on your personality type, it is recommended that you pursue a career in {{job1}}.</h4>
+        <!-- this is where u want to print out the possible jobs--> 
+        <h4> Thank you for taking our test! </h4>
+        <h4> Click <a href='https://infinite-earth-37349.herokuapp.com/'>here</a> to restart. </h4>
      <footer>
 			<p>Copyright 2021 | All Rights Reserved</p>
 		</footer>
