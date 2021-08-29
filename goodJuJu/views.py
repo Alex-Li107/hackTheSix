@@ -16,6 +16,7 @@ def results(request):
             Sum = Sum + int(values[i])
         #you dont need this if u summing it all up. Delete when ur done
     
+    # asdhaujksdhjksad
     #if statements to determine personality
     if Sum >= 76:
         values_dict =  {
